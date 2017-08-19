@@ -1,0 +1,7 @@
+{
+  "name": "ember-quickstart",
+  "dependencies": {
+    "masonry": "^4.2.0",
+    "imagesloaded": "^4.1.3"
+  }
+}

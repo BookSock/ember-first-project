@@ -20,6 +20,10 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
+      'post_limit': '100',
+      'over_18': false,
+      'startingId': 0,
+      'new_subreddit': 'earthporn',
     }
   };
 

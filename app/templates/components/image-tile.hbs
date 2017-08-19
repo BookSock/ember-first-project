@@ -1,0 +1,33 @@
+{{yield}}
+<!-- <p>{{title}}</p> -->
+
+<!-- <script
+console.log();
+var i;
+for (i=0;i++;i<2) {
+  console.log("hi");
+};
+
+/> -->
+
+{{#masonry-grid items=posts.posts as |post|}}
+<!-- {{log post.Rid}} -->
+
+  <a href={{post.permalink}} target="_blank">
+  <img src={{post.imgurl}}/>
+  </a>
+
+{{/masonry-grid}}
+
+
+<!-- {{#each posts.posts as |post|}}
+<p>JASONAONAS</p>
+  <div>
+
+
+  <img src={{post}}/>
+
+  </div>
+
+
+{{/each}} -->
